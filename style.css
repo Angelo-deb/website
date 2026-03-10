@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.8;
+}
+
+
+/*css sur le header*/
+
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+
+.en-tete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 90px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#00246B;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.cta {
+    text-decoration: none;
+    color: #fff;
+    background-color:#00246B;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 100px;
+    transition: 0.2ms;
+}
+
+.cta:hover {
+    background-color: red;
+}
+
+/*css sur la section hero*/
+
+.hero{
+    background-image: url(images/réservoirs-de-blanc-pour-l-essence-et-le-pétrole-37155363.webp);
+    padding: 150px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color:blue;
+    font-weight: bold;
+}
+
+span{
+    color:red;
+}
+
+.description{
+    color:white;
+    padding-top: 40px;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+/*css sur le section a-propos*/
+
+h2{
+    font-size: 1.7em;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.underline{
+    background-color: blue;
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 25px;
+    margin-top: 30px;
+    color:#00246B;
+    padding: 10px;
+}
+
+i{
+    color: red;
+    margin-right: 10px;
+}
+
+p{
+    font-size:1.2em;
+    margin: 10px;
+    padding-left: 0.75cm;
+}
+
+.creation{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.card{
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3 ease;
+}
+
+.card img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card p{
+    padding: 15px;
+    font-size: 17px;
+    color:red;
+    text-align: center;
+}
+
+/*css sur services*/
+
+
+.statistiques{
+    display: flex;
+    gap:40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cercle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid red;
+    background-color: #00246B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.pourcentage{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding-top: 15px;
+}
+
+.cercle p{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+
+h4{
+    color: #00246B;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ecriture{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.CTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: red;
+    border: 5px solid #00246B;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 1.3em;
+    transition: 0.3s;
+}
+
+.CTA:hover{
+    background-color: #00246B;
+    border: 5px solid red;
+}
+
+/*css sur les contacts*/
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+
+.contact-info {
+    background: #1a2a6c;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+
+.contact-info h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+.contact-item {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+
+.contact-icon {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.contact-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/*css sur le pied de page*/
+
+footer {
+    margin-top: 55px;
+    background: #1a2a6c;
+    color: #ccc;
+    padding: 30px 2%;
+    font-family: poppins, sans-serif;
+    font-size:0.9em;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.log{
+    width: 100px;
+}
+
+.footer-container{
+    text-align: center;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: red;
+}
+
+.bas-titre{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom{
+    border-top: 1px solid #444;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.foot{
+    color: #ccc;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 10px;
+}
