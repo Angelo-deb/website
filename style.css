@@ -370,3 +370,34 @@ footer a:hover{
     text-align: center;
     margin-top: 10px;
 }
+
+/*responsive*/
+
+@media (max-width: 768px) {
+    .en-tete {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .creation {
+        grid-template-columns: 1fr;
+    }
+
+    .statistiques {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
