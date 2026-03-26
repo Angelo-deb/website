@@ -156,9 +156,9 @@ span {
 }
 
 p{
-    text-align: justify;
     font-size: 1.2em;
-    padding: 10px;
+    margin: 10px;
+    padding-left: 0.75cm;
 }
 
 h2{
@@ -222,8 +222,7 @@ footer a:hover{
     color: red;
 }
 
-
-h3{
+.bas-titre{
     color: white;
     font-size: 25px;
     font-weight: bold;
@@ -231,9 +230,9 @@ h3{
     margin-top: 20px;
 }
 
+
 i{
     color: red;
-    font-size: 1.1em;
     margin-top: 10px;
 }
 
